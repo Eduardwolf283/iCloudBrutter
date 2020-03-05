@@ -31,15 +31,13 @@ class iCloudBrute(object):
     
     def usage(self):
         print("Usage: %s [options]\n"%(sys.argv[0]))
-        print("\t--id\t\tApple ID")
-        print("\t--idw\t\tApple ID Wordlist")
-        print("\t--wordlist\tWordlist")
-        print("\t--proxy\t\tSet proxy")
-        print("\t--tor\t\tUse tor\n")
-        print("Example:")
-        print("\t%s --id test@apple.com --wordlist pass.txt"%(sys.argv[0]))
-        print("\t%s --id test@apple.com --wordlist pass.txt --tor"%(sys.argv[0]))
-        print("\t%s --id test@apple.com --wordlist pass.txt --proxy 11.11.11.11\n"%(sys.argv[0]))
+        print("\t--id\t\tjanssens_emile@hotmail.com")
+        print("\t--idw\t\tjanssens_emile@hotmail.com --worldlist pass.txt"%(sys.argv[0]))
+        print("\t%s --id janssens_emile@hotmail.com --wordlist pass.txt --tor"%(sys.argv[0]))
+        print("\t%s --id janssens_emile@hotmail.com --wordlist pass.txt --proxy 11.11.11.11\n"%(sys.argv[0]))
+        print("\t%s --id janssens_emile@hotmail.com --wordlist pass.txt"%(sys.argv[0]))
+        print("\t%s --id janssens_emile@hotmail.com --wordlist pass.txt --tor"%(sys.argv[0]))
+        print("\t%s --id janssens_emile@hotmail.com --wordlist pass.txt --proxy 11.11.11.11\n"%(sys.argv[0]))
         exit()
     
     def main(self):
